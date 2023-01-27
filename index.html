@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youtube</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <style>
+        header{
+            display: flex;
+            justify-content: space-between; 
+            height: 50px;
+            margin-left: 10px;
+
+        }
+        input{
+            width: 300px;
+            height: 20px;
+            border-radius: 10px;
+        } 
+        section{
+            display: grid;
+            grid-template-columns: 1fr 11fr;
+        }
+        .nav-item {
+            font-size: 13px;
+            text-align: center;
+            margin-left: -50px;
+            margin-bottom: 50px;
+             }
+             .bi-justify{
+                font-size: 30px;
+             }
+             .banner{
+                margin-top: 20px;
+             }
+             .row {
+            display: grid;
+            grid-template-columns: 3fr 3fr 3fr 3fr;
+            margin-bottom: 50px;
+        }
+        iframe {
+            width: 250px;
+            height: 150px;
+            border:none;
+        }
+        .video {
+            font-size: 20px;
+            
+        }
+        p{
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <span class="bi bi-justify"></span> 
+            <span><img src="public/images/youtube.png" width="40%"></span>
+        </div> 
+        <div>
+            <input type="text">
+            <button>
+                <span class="bi bi-search"></span>
+            </button>
+            <span class="bi bi-mic-fill"></span>
+
+        </div>
+            <div>
+                    <span class="bi bi-person-circle "></span>Sign In
+            </div>
+        </div>
+    </header>
+    <section>
+        <nav>
+          <div class="nav-item">
+            <div class="bi bi-house-door-fill"></div>
+            <span>Home</span>
+          </div>
+          <div class="nav-item">
+            <div class="bi bi-clock-history"></div>
+            <span>History</span>
+          </div>
+          <div class="nav-item">
+            <div class="bi bi-music-note-list"></div>
+            <span>Music</span>
+          </div>
+          <div class="nav-item">
+            <div class="bi bi-collection-play-fill"></div>
+            <span>Subscrption</span>
+          </div>
+        </nav>
+        <main>
+            <div class="banner">
+                <img src="public/images/youtube1.png" width="100%">
+            </div>
+            <div class="video">
+                <div class="row">
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/Jy5o66NXgVs" frameborder="40px"></iframe>
+                        <p>POWERFUL SHIVA mantra to remove negative energy - Shiva Dhyana Mantra (Mahashivratri Chant)</p>
+                        <div>12M views</div>
+                        <div>1 year ago</div> 
+                    </div>
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/hoHo8h2JOgY" frameborder="0"></iframe>
+                        <p>Hosana by A R Reheman</p>
+                        <div>122M views </div>
+                        <div> 28 May 2022</div>
+                    </div>
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/VCT88OWhZUY" frameborder="0"></iframe>
+                        <p></p>
+                        <div>131M views</div>
+                        <div>7 year ago</div>
+                        
+                    </div>
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/3HGrvVIGTR0" frameborder="0"></iframe>
+                        <p>Teri Seva Karunga|| Official Video || Hansraj Raghuwanshi ||</p>
+                        <div>155M Views</div>
+                        <div>7 Months ago</div>
+                        
+                    </div>
+                </div>
+
+            </div>
+    
+        </main>
+    </section>
+    
+</body>
+</html>
